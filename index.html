@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script defer src="node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+    <script defer src="node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+    <script defer src="script.js"></script>
+    
+    <title>flexbox</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="kolom-satu">
+                <div class="card">
+                    <img src="img/pexels-rebecca-zaal-764681.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5>Top Winter locations</h5>
+                        <h6 class="card-sub mb-2 text-muted">More than 200 locations</h6>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Tempora tenetur sed eos sunt accusamus. Non tenetur ipsam a 
+                            necessitatibus voluptate, eos pariatur natus itaque omnis 
+                            laudantium porro hic vel quam tempora facilis ex aspernatur 
+                            explicabo est sit fugiat? Rem quo perspiciatis velit quae 
+                            doloribus recusandae dolorum nihil in harum ab.</p>
+                            <div class="row">
+                                <div class="col">
+                                <a href="#" class="card-link">share</a>
+                                </div>
+                                <div class="col">
+                                    <a href="#" class="card-link">explore</a>
+                                </div>
+                                <div class="col">
+                                    <i class="fas fa-chevron-down" style="margin-left: 40px;"></i>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kolom-dua">
+                <div class="card">
+                    <img src="img/pexels-rebecca-zaal-764681.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5>Top Winter locations</h5>
+                        <h6 class="card-sub mb-2 text-muted">More than 200 locations</h6>
+                        <div class="accordion">
+                            <button type="button" class="accordion_btn">Share&nbsp;&nbsp;Explore&nbsp;&nbsp;<i class="fas fa-chevron-down" style="margin-left: 9.5vh;color: black;"></i></button>
+                            <div class="accordion_content">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Tempora tenetur sed eos sunt accusamus. Non tenetur ipsam a 
+                                    necessitatibus voluptate, eos pariatur natus itaque omnis 
+                                    laudantium porro hic vel quam tempora facilis ex aspernatur 
+                                    explicabo est sit fugiat? Rem quo perspiciatis velit quae 
+                                    doloribus recusandae dolorum nihil in harum ab.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kolom-tiga">
+                <div class="card-header" style="background-color: #fff;">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/portfolio-1.jpg" alt="" style="width: 50px;height: 50px;border-radius: 50%;align-content: center;display: flex;">
+                        </div> <br>
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    John Doe
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 mb-2 text-muted">
+                                    20 mins ago
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/pexels-rebecca-zaal-764681.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5>Top Winter locations</h5>
+                        <h6 class="card-sub mb-2 text-muted">More than 200 locations</h6>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Tempora tenetur sed eos sunt accusamus. Non tenetur ipsam a 
+                            necessitatibus voluptate, eos pariatur natus itaque omnis 
+                            laudantium porro hic vel quam tempora facilis ex aspernatur 
+                            explicabo est sit fugiat? Rem quo perspiciatis velit quae 
+                            doloribus recusandae dolorum nihil in harum ab.</p>
+                        <a href="#" class="card-link">share</a>
+                        <a href="#" class="card-link">explore</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kolom-empat">
+                <div class="card">
+                    <img src="img/pexels-rebecca-zaal-764681.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col" style="text-align: right;">
+                                <a href="#"><i class="fas fa-heart"></i></a> &nbsp;
+                                <a href="#"><i class="fas fa-bookmark"></i></a>&nbsp;&nbsp;
+                                <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

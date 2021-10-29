@@ -1,0 +1,53 @@
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.accordion_btn {
+    display: block;
+    width: 100%;
+    padding: 0px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+    color: #1d77ff;
+    transition: 0.5s;
+    text-align: left;
+}
+
+
+
+.accordion_btn--active + .accordion_content {display: block;}
+.accordion_btn--active {background: #ffffff;}
+
+.accordion_content {
+    overflow: auto;
+    max-height: 0;
+    transition: max-height 0.2s;
+    padding: 0px;
+    background: #fff;
+    display: block;
+}
+
+.kolom-satu {
+    flex: 1;
+    padding: 10px;
+}
+
+.kolom-dua {
+    flex: 1;
+    padding: 10px;
+}
+
+.kolom-tiga {
+    flex: 1;
+    padding: 10px;
+}
+
+.kolom-empat {
+    flex: 1;
+    padding: 10px;
+}
